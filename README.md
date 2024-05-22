@@ -2,7 +2,7 @@
 
 ## Project Link
 
-To access the live demo of the BlogSpot application, visit [BlogSpot Demo](https://blogspot.ravisinghpatel.dev/).
+To access the live demo of the BlogSpot application, visit <a href="https://blogspot.ravisinghpatel.dev/" target="_blank">BlogSpot Demo</a>.
 
 **Demo Credentials**:
 - Username: demo@example.com
