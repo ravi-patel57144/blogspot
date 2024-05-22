@@ -2,7 +2,7 @@
 
 ## Project Link
 
-To access the live demo of the BlogSpot application, visit <a href="https://blogspot.ravisinghpatel.dev/" target="_blank">BlogSpot Demo</a>.
+To access the live demo of the BlogSpot application, visit [BlogSpot Demo](https://blogspot.ravisinghpatel.dev/).
 
 **Demo Credentials**:
 - Username: demo@example.com
@@ -54,7 +54,7 @@ The application is built using Angular CLI and incorporates various development 
 
 To run the application locally, follow these steps:
 
-1. Clone the repository from GitHub: [Repository Link](https://github.com/your-repository-link)
+1. Clone the repository from GitHub: [Repository Link](https://github.com/ravi-patel57144/blogspot.git)
 2. Navigate to the project directory.
 3. Install dependencies by running `npm install`.
 4. Start the development server with `ng serve`.
