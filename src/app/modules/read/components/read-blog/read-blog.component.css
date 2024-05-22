@@ -1,0 +1,155 @@
+.blog-container {
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 15%;
+    padding-bottom: 50px;
+}
+
+.card-head {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-head img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.card-head h2 {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.card-head p {
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card-head mat-icon {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.features {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.like,
+.comment {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.follow {
+    color: green;
+}
+
+.unfollow {
+    color: blue;
+}
+
+.heading {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-image img {
+    height: auto;
+    width: 50%;
+    object-fit: cover;
+}
+
+.description {
+    margin-top: 50px;
+    font-size: 20px;
+    height: fit-content;
+    border: 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .blog-container {
+        width: 85%;
+        margin-left: 7.5%;
+    }
+
+    .main-image img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog-container {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .main-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .features {
+        justify-content: space-around;
+    }
+
+    .heading {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .blog-container {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .main-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-head h2 {
+        font-size: 20px;
+    }
+
+    .card-head p,
+    .card-head mat-icon {
+        margin: 5px 0;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .features span {
+        margin-left: 10px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+}
