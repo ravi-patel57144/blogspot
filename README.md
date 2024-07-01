@@ -1,4 +1,4 @@
-# Welcome to Ravi Singh Patel's BlogSpot Application
+# BlogSpot Application using Angular
 
 ## Project Link
 
